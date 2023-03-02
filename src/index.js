@@ -58,7 +58,7 @@ import './index.css';
         if (winner) {     
             status = 'Winner: ' + winner;    
         } else {   
-        jhgbjhb    status = 'Next player: ' + (this.state.xIsNext ? 'X' : 'O');    
+          status = 'Next player: ' + (this.state.xIsNext ? 'X' : 'O');    
         }
 
       return (
